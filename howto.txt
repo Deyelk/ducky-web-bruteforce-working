@@ -1,0 +1,3 @@
+to make the scripts here i used  head -37144 your txt | xargs -n  1 echo STRING | xargs -0 | sed '0~1 s/$/\ \nENTER/g' > t.txt
+if u want to do the same switch out the head number with your file and put in ur file where it says your file
+
